@@ -1,0 +1,5 @@
+#!/bin/bash
+
+name=$(date +"Screenshot_%Y-%m-%d_%H-%M-%S.png")
+grim -g "$(slurp)" ~/Pictures/Screenshots/$name
+wl-copy < ~/Pictures/Screenshots/$name

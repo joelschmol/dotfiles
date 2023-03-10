@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+swaylock --screenshots --effect-blur=9x7
