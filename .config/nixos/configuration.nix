@@ -177,7 +177,7 @@ in
     swayidle
     imv
     mpv
-    thunar
+    xfce.thunar
     spotify
   ];
   services.blueman.enable = true;
