@@ -1,11 +1,6 @@
 # About
 
-In-house baked configs for Home-Manager and NixOS. Borrowed bits sprinkled on
-top. Using [flakes](https://nixos.wiki/wiki/Flakes) and
-[flake-parts](https://github.com/hercules-ci/flake-parts).
-
-See an overview of the flake outputs by running
-`nix flake show codeberg.org:Matthew/nixdot`.
+my configs for nixos and other programs i normally use 
 
 # Resources
 
