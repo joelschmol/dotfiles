@@ -11,6 +11,7 @@ my configs for nixos and other programs i normally use
 Other people from whom I learned and copied:
 
 - [echo](https://github.com/exhq)
-- [ a-weeb-programmer/my-dotfiles](https://github.com/a-weeb-programmer/my-dotfiles)
+- [a-weeb-programmer/my-dotfiles](https://github.com/a-weeb-programmer/my-dotfiles)
 - [ophi4383/dotfiles](https://github.com/ophi4383/dotfiles)
 - [gh0stzk/dotfiles](https://github.com/gh0stzk/dotfiles)
+- [Roshanpaudel111/Arch-Hyprland](https://github.com/Roshanpaudel111/Arch-Hyprland)
