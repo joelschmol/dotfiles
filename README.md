@@ -1,10 +1,10 @@
 # About
 
-my configs for nixos and other programs i normally use 
+my configs for nixos (abandoned) and other programs i normally use 
 
 ## ⚠ Warning
 
-> This is a private configuration. I make no guarantees that it will work for anyone but myself (so far it doesnt work for me either). Also it might change randomly so if you like something, download or fork it.
+> This is a private configuration. I make no guarantees that it will work for anyone but myself. Also it might change randomly so if you like something, download or fork it.
 
 # Resources
 
