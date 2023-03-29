@@ -1,6 +1,6 @@
 # About
 
-my configs for nixos (abandoned) and other programs i normally use 
+My configs for NixOS (abandoned) and other programs i normally use.
 
 ## ⚠ Warning
 
