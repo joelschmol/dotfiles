@@ -15,3 +15,4 @@ Other people from whom I learned and copied:
 - [a-weeb-programmer/my-dotfiles](https://github.com/a-weeb-programmer/my-dotfiles)
 - [gh0stzk/dotfiles](https://github.com/gh0stzk/dotfiles)
 - [Roshanpaudel111/Arch-Hyprland](https://github.com/Roshanpaudel111/Arch-Hyprland)
+- [hifinerd/lugia-sway-dots](https://github.com/hifinerd/lugia-sway-dots)
