@@ -16,3 +16,4 @@ Other people from whom I learned and copied:
 - [gh0stzk/dotfiles](https://github.com/gh0stzk/dotfiles)
 - [Roshanpaudel111/Arch-Hyprland](https://github.com/Roshanpaudel111/Arch-Hyprland)
 - [hifinerd/lugia-sway-dots](https://github.com/hifinerd/lugia-sway-dots)
+- [demus07/sway-dots](https://github.com/demus07/sway-dots)
