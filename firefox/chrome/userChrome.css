@@ -8,8 +8,8 @@
   --z0mbi3-tab-border-radius: 0px;
   --z0mbi3-tab-color: #f3edff;
   --z0mbi3-tab-font-family: "JetBrainsMono Nerd Font", serif;
-  --z0mbi3-tab-font-size: 9.5pt;
-  --z0mbi3-tab-font-weight: 600;
+  --z0mbi3-tab-font-size: 10pt;
+  --z0mbi3-tab-font-weight: 700;
   --z0mbi3-tab-height: 42px;
   --z0mbi3-tab-pinned-bg: #70c1b3;
   --z0mbi3-tab-selected-bg: #4d4168;
@@ -21,8 +21,8 @@
   --z0mbi3-urlbar-font-weight: 800;
   --z0mbi3-urlbar-results-color: #e0fbfc;
   --z0mbi3-urlbar-results-font-family: "JetBrainsMono Nerd Font", serif;
-  --z0mbi3-urlbar-results-font-size: 9pt;
-  --z0mbi3-urlbar-results-font-weight: 700;
+  --z0mbi3-urlbar-results-font-size: 10pt;
+  --z0mbi3-urlbar-results-font-weight: 800;
   --z0mbi3-urlbar-results-url-color: #98c1d9;
 
   /* Overriden Firefox variables*/
