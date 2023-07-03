@@ -1,0 +1,98 @@
+{
+    "layer": "bottom",
+    "position": "top",
+    "modules-left": ["cpu", "memory","battery"],
+    "modules-center": ["sway/workspaces"],
+    "modules-right": ["pulseaudio","backlight", "network", "clock", "tray"],
+    "clock": {
+        "format": " {:%H:%M}",
+        "format-alt": " {:%d.%m.%Y %H:%M}"
+    },
+    "cpu": {
+        "interval": 2,
+        "format": "󰻠 {usage}%",
+        "max-length": 10
+    },
+    "memory": {
+    	"interval": 2,
+    	"format": "󰍛 {percentage}%",
+    	"max-length": 10
+    },
+    "tray": {
+        "icon-size": 18,
+        "spacing": 10
+    },
+    "wlr/workspaces": {
+         "format": "{icon}",
+         "on-scroll-up": "hyprctl dispatch workspace e+1",
+         "on-scroll-down": "hyprctl dispatch workspace e-1",
+         "on-click": "activate"
+    },
+    "sway/workspaces": {
+        "persistant_workspaces": {
+            "3": [], // Always show a workspace with name '3', on all outputs if it does not exists
+            "4": ["eDP-1"], // Always show a workspace with name '4', on output 'eDP-1' if it does not exists
+            "5": ["eDP-1", "DP-2"] // Always show a workspace with name '5', on outputs 'eDP-1' and 'DP-2' if it does not exists
+        },
+    "pulseaudio": {
+        "format": "{icon} {volume}%",
+        "format-muted": "",
+        "format-icons": {
+            "default": ""
+        },
+        "scroll-step": 1,
+        "on-click": "pactl set-sink-mute 0"
+    },
+    "hyprland/language": {
+        "format": "{}",
+        "format-fr": "fr",
+    },
+    "custom/temp": {
+    	"exec": "sensors | grep \"Tctl:\" | sed \"s/Tctl: *//\" | cut -d \" \" -f 1",
+    	"format": " {}",
+    	"restart-interval": 2
+    },
+    "custom/spotify": {
+        "format": "{}",
+        "max-length": 30,
+        "on-click": "playerctl -p spotify play-pause",
+        "exec": "$HOME/.config/waybar/spotify.sh",
+        "exec-if": "pgrep spotify"
+	},
+    "network": {
+        // "interface": "wlan0", //(Optional) To force the use of this interface,
+        "format-wifi": "  {essid}",
+        "format-ethernet": "{ifname}: {ipaddr}/{cidr} ",
+        "format-linked": "{ifname} (No IP) ",
+        "format-disconnected": "",
+        "format-alt": "{ifname}: {ipaddr}/{cidr}",
+        "family": "ipv4",
+        "tooltip-format-wifi": "  {ifname} @ {essid}\nIP: {ipaddr}\nStrength: {signalStrength}%\nFreq: {frequency}MHz\n {bandwidthUpBits}  {bandwidthDownBits}",
+        "tooltip-format-ethernet": " {ifname}\nIP: {ipaddr}\n {bandwidthUpBits}  {bandwidthDownBits}"
+   },
+   
+    "battery": {
+      "bat": "BAT0",
+      "adapter": "ADP0",
+      "interval": 60,
+      "states": {
+          "warning": 30,
+          "critical": 15
+      },
+      "on-click": "", 
+      "max-length": 20,
+      "format": "{icon} {capacity}%",
+      "format-warning": "{icon} {capacity}%",
+      "format-critical": "{icon} {capacity}%",
+      "format-charging": "<span font-family='Font Awesome 6 Free'></span> {capacity}%",
+      "format-plugged": "  {capacity}%",
+      "format-alt": "{icon} {time}",
+      "format-full": "  {capacity}%",
+      "format-icons": [" ", " ", " ", " ", " "],
+    },
+     "backlight": {
+        "format": "{percent}% {icon}",
+        "format-icons": ["", "", "", "", "", "", "", "", ""]
+    },
+}
+}
